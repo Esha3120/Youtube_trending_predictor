@@ -61,7 +61,6 @@ venv\Scripts\activate    # Windows
 
 Install dependencies:
 
-
 pip install -r requirements.txt
 
 Set up environment variables:
@@ -79,8 +78,7 @@ Option 1: Paste YouTube URL (auto-fills details)
 Example: https://www.youtube.com/watch?v=dQw4w9WgXcQ
 Option 2: Manual entry:
 
-Title, Channel, Views, Likes, Comments, Publish Time, Region
-Get predictions:
+Title, Channel, Views, Likes, Comments, Publish Time, RegionGet predictions:
 
 Click "Predict Trending Probability"
 
@@ -90,29 +88,6 @@ Probability score (0-100%)
 
 Trending likelihood (High/Medium/Low)
 
-Key influencing factors
-
-Project Structure 📂
-youtube_trending_predictor/
-├── app/                  # Streamlit application
-│   ├── main.py           # Core application
-│   ├── components/       # UI components
-│   └── assets/           # Images/styles
-├── models/               # Pretrained models
-│   ├── youtube_trending_model_[date].joblib
-│   └── youtube_features_[date].joblib
-├── utils/                # Processing modules
-│   ├── data_processing.py
-│   └── model_training.py
-├── notebooks/            # Analysis notebooks
-│   ├── data_exploration.ipynb
-│   └── model_training.ipynb
-├── data/                 # Datasets
-│   ├── raw/              # Original CSVs
-│   └── processed/        # Cleaned data
-├── requirements.txt      # Python dependencies
-├── .env.template         # Environment template
-└── README.md
 Model Training 🧠
 To retrain the model:
 
