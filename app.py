@@ -1,7 +1,7 @@
 import streamlit as st
 from datetime import datetime, time
 import pandas as pd
-!pip install joblib
+pip install joblib
 import joblib
 from utils.data_processing import prepare_data, enhance_features
 from googleapiclient.discovery import build
