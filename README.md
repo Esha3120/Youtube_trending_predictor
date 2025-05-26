@@ -1,6 +1,6 @@
 # YouTube Trending Video Predictor 🎬📈
 
-![Streamlit App Demo](app/assets/demo.gif) *(replace with actual screenshot)*
+https://youtubetrendingpredictor.streamlit.app/
 
 ## Table of Contents
 - [Project Overview](#project-overview-)
