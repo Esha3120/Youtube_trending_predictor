@@ -7,3 +7,4 @@ xgboost
 seaborn
 matplotlib
 textblob
+google-api-python-client
