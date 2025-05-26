@@ -7,3 +7,4 @@ xgboost
 seaborn
 matplotlib
 selenium
+joblib>=1.3.2
